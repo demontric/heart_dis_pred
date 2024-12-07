@@ -4,7 +4,7 @@ import numpy as np
 
 # import the model
 model = pickle.load(open('model.pkl', 'rb'))
-df = pickle.load(open('df1.pkl', 'rb'))
+df = pickle.load(open('df.pkl', 'rb'))
 
 #homepage with input box
 st.title("Heart Disease Predictor")
